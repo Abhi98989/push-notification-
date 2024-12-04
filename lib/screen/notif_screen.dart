@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class NotificationService {
   //String _serverKey = 'YOUR_SERVER_KEY_HERE'; // Replace with your Firebase server key
-  static String url = 'https://api.onesignal.com/notifications';
+  static String url = 'https://api.onesignal.com/Push-notifications';
 
   static sendNotification({
     required String title,
